@@ -11,6 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sanctuaries", "Sanctuaries\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeBuild", "CakeBuild\CakeBuild\CakeBuild.csproj", "{A73A4EA0-7689-450B-9FC0-15CCA2D51999}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{5623E9EE-AF36-492F-8A04-D6F30430D192}"
+	ProjectSection(SolutionItems) = preProject
+		dotnet-install.ps1 = dotnet-install.ps1
+		Setup.ps1 = Setup.ps1
+		setup.bat = setup.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug All|Any CPU = Debug All|Any CPU
