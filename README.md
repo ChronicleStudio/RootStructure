@@ -20,6 +20,7 @@ This also allos for the removeal of duplicate CakeBuilds, as the code is typical
 5. Once the Repository secesfully downloads, you should see the `License` and `Readme` for each prodject, under `C:\Test\RootStructure\CakeBuild\`, and the relevent `.csproj` under `C:\Test\RootStructure\CakeBuild\CakeBuild`. 
 
 > ***Note:*** Where `CakeBuild` shows in the file structures above, this would be replaced by a given Prodject/Repository name.
+> ***Note:*** If you have issues with depencies showing as not loaded, ensure that the Install location for Vintage Story was selected correctly. If so, then double click on a given project and add a space to the bottom of the file, save the .csproj file, remove the space and save again. This should refresh the solution and builds should then show up as valid, if further steps are needed, reach out to Sauran The White on discord for assiatnce with troubleshooting.
 
 # Credits
 - `setup.bat` and `setup.ps1` where created by [Saruan The White](https://github.com/JonathanArendt)
