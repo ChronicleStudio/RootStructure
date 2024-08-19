@@ -18,6 +18,60 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{5623E9EE
 		setup.bat = setup.bat
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReadME", "ReadME", "{57D3AB2C-B2B4-4A03-96D3-2CACF03B1C0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Licenes", "Licenes", "{4198928E-D0A4-4306-AC47-833A16418C23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RootStructure", "RootStructure", "{6F59F127-65D1-4FED-A54F-8E25C340DB06}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CakeBuild", "CakeBuild", "{05B9E8BB-6D45-406C-8488-05F87CD974B5}"
+	ProjectSection(SolutionItems) = preProject
+		CakeBuild\LICENSE = CakeBuild\LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sanctuaries", "Sanctuaries", "{F554F0DB-A86B-469C-91C0-172A8B063825}"
+	ProjectSection(SolutionItems) = preProject
+		Sanctuaries\LICENSE.txt = Sanctuaries\LICENSE.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shackles", "Shackles", "{BD55A530-5DF1-49CC-A01E-B0FAE7306F7E}"
+	ProjectSection(SolutionItems) = preProject
+		Shackles\LICENSE.txt = Shackles\LICENSE.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snitches", "Snitches", "{075B0CEC-B8BD-4CBD-A542-83D076ACE893}"
+	ProjectSection(SolutionItems) = preProject
+		Snitches\LICENSE.txt = Snitches\LICENSE.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CakeBuild", "CakeBuild", "{5D4526FC-2469-4A98-AC50-FF90694AF089}"
+	ProjectSection(SolutionItems) = preProject
+		CakeBuild\README.md = CakeBuild\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RootStructure", "RootStructure", "{D6B70372-03FB-4CC4-A661-1B2E4929C14A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sanctuaries", "Sanctuaries", "{EDB3A664-FF05-480F-BBA5-F5605DC2865A}"
+	ProjectSection(SolutionItems) = preProject
+		Sanctuaries\README.md = Sanctuaries\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shackles", "Shackles", "{8F276850-35EE-451E-AAE0-7DC81BB420C2}"
+	ProjectSection(SolutionItems) = preProject
+		Shackles\README.md = Shackles\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snitches", "Snitches", "{B590D311-6AA5-4039-AB2F-721429BF8258}"
+	ProjectSection(SolutionItems) = preProject
+		Snitches\README.md = Snitches\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug All|Any CPU = Debug All|Any CPU
@@ -52,6 +106,18 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F59F127-65D1-4FED-A54F-8E25C340DB06} = {4198928E-D0A4-4306-AC47-833A16418C23}
+		{05B9E8BB-6D45-406C-8488-05F87CD974B5} = {4198928E-D0A4-4306-AC47-833A16418C23}
+		{F554F0DB-A86B-469C-91C0-172A8B063825} = {4198928E-D0A4-4306-AC47-833A16418C23}
+		{BD55A530-5DF1-49CC-A01E-B0FAE7306F7E} = {4198928E-D0A4-4306-AC47-833A16418C23}
+		{075B0CEC-B8BD-4CBD-A542-83D076ACE893} = {4198928E-D0A4-4306-AC47-833A16418C23}
+		{5D4526FC-2469-4A98-AC50-FF90694AF089} = {57D3AB2C-B2B4-4A03-96D3-2CACF03B1C0E}
+		{D6B70372-03FB-4CC4-A661-1B2E4929C14A} = {57D3AB2C-B2B4-4A03-96D3-2CACF03B1C0E}
+		{EDB3A664-FF05-480F-BBA5-F5605DC2865A} = {57D3AB2C-B2B4-4A03-96D3-2CACF03B1C0E}
+		{8F276850-35EE-451E-AAE0-7DC81BB420C2} = {57D3AB2C-B2B4-4A03-96D3-2CACF03B1C0E}
+		{B590D311-6AA5-4039-AB2F-721429BF8258} = {57D3AB2C-B2B4-4A03-96D3-2CACF03B1C0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C31D77C-1450-4A6D-A4A8-FEF3CE80FB7E}
