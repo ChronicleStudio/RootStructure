@@ -4,7 +4,7 @@ do {
 	$answer = read-host "Is Vintage Story installed to default directory? Yes or no? "
     if ($answer -eq 'yes') { 
         $vaild = $true
-        [Environment]::SetEnvironmentVariable("VINTAGE_STORY", ($pwd.path), "User") 
+        [Environment]::SetEnvironmentVariable("VINTAGE_STORY", "$Env:AppData\Vintagestory", "User") 
         break
     } elseif ($answer -eq 'no') {
         $vaild = $true
@@ -18,13 +18,11 @@ do {
 		        [Environment]::SetEnvironmentVariable("VINTAGE_STORY", $path, "User") 
                 break
 	        }
-            write $valid2
         } until ($vaild2 -eq $true)
         break
     } else {
 	    write "Invalid Answer, Try Again"
     }
-    write $vaild
 } until ($valid -eq $true)
 
 dotnet --list-sdks
@@ -37,11 +35,10 @@ do {
         break
     } elseif ($answer -eq 'no') { 
         $vaild = $true
-        .\dotnet-install.ps1 -Version 7.0.102
+        .\dotnet-install.ps1 -Version 7.0.410
         break
     } else {
 	    write "Invalid Answer, Try Again"
     }
-    write $vaild
 } until ($valid -eq $true)
 dotnet new install VintageStory.Mod.BasicTemplate
