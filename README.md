@@ -25,3 +25,4 @@ This also allos for the removeal of duplicate CakeBuilds, as the code is typical
 # Credits
 - `setup.bat` and `setup.ps1` where created by [Saruan The White](https://github.com/JonathanArendt)
 - `dontnet-install.ps1` is found on [Microsoft's Learn .NET Website](https://learn.microsoft.com/en-us/dotnet/core/install/windows#install-with-powershell) 
+- Bug Fixes and Added Features by [Clae Oczachowski](https://github.com/claeoz)
