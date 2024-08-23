@@ -42,3 +42,5 @@ do {
     }
 } until ($valid -eq $true)
 dotnet new install VintageStory.Mod.BasicTemplate
+dotnet new uninstall ChronicleStudio.Mod.Templates
+dotnet new install .\Setup\ChronicleStudio.Mod.Templates.1.0.8.nupkg
