@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WorldGenDecoder": {
+      "commandName": "Project",
+      "commandLineArgs": "Decode Test Test"
+    }
+  }
+}
